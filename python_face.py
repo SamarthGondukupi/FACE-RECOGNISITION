@@ -13,29 +13,18 @@ jobs_encoding = face_recognition.face_encodings(jobs_image)[0]
 putin_image = face_recognition.load_image_file("photos\putin.jpeg")
 putin_image_encoding = face_recognition.face_encodings(putin_image)[0]
 
-satvik_image = face_recognition.load_image_file("photos\satvik.jpeg")
-satvik_encoding = face_recognition.face_encodings(satvik_image)[0]
- 
-Tanmesh_image = face_recognition.load_image_file("photos\Tanmesh.jpeg")
-Tanmesh_encoding = face_recognition.face_encodings(Tanmesh_image)[0]
 
-samarth_image = face_recognition.load_image_file("photos\samarth.jpeg")
-samarth_encoding = face_recognition.face_encodings(samarth_image)[0]
  
 known_face_encoding = [
 jobs_encoding,
 putin_image_encoding,
-satvik_encoding,
-Tanmesh_encoding,
-samarth_encoding
+
 ]
  
 known_faces_names = [
 "jobs",
 "putin",
-"satvik",
-"Tanmesh CR",
-"Samarth"
+
 
 ]
  
